@@ -1,0 +1,32 @@
+<div class="subscribe_form">
+  <% if cookies[:saved_subscriber] %>
+    Thanks for signing up!
+  <% else %>
+    <div class="subscribe-control">
+      <h2> Sign up for my newsletter here! </h2>
+    </div>
+    <%= form_for Subscriber.new do |f| %>
+
+      <div class="contact_input_area">
+        <div class="row">
+          <div class="col-auto col-md-6">
+              <div class="form-group">
+                  <%= f.text_field :name, placeholder: "Name", class: "form-control subscribe-control" %>
+              </div>
+          </div>
+
+          <div class="col-auto col-md-6">
+              <div class="form-group">
+                  <%= f.email_field :email, placeholder: "Email", class: "form-control subscribe-control" %>
+              </div>
+          </div>
+
+          <div class="col-auto col-md-3">
+                  <%= f.submit :Subscribe, class: "btn subscribe-btn"  %>
+          </div>
+
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
