@@ -802,7 +802,7 @@ p {
 .cool_facts_area {
     position: relative;
     z-index: auto;
-    background: -webkit-linear-gradient(50deg, #f6f8f9, #f6f8f9);
+    background: -webkit-linear-gradient(50deg, #faf6f9, #faf6f9);
     padding: 40px 0 50px 0;
     //top: -100px;
 }
@@ -815,7 +815,7 @@ p {
     right: 0;
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    //background-color: #fff;
     content: ''
 }
 
@@ -1346,7 +1346,7 @@ p {
     margin-bottom: 0;
 }
 
-.gradient-bck{background-image: linear-gradient(to bottom, #fff, #f6f9ff);}
+.gradient-bck{background-image: linear-gradient(to bottom, #fff, #fdfbfc);}
 
 
 
@@ -1375,77 +1375,179 @@ p {
 	background: rgba(255,0,0,0.4);
 }
 
-
-
 /* --------------------------
-text animation effect start
+:: Careers Area Start
 -------------------------- */
-$background: #efefef;
-$primary_font: 'Fredoka One', sans-serif;
-$first_color: rgba(0, 0, 255, 0.5);
-$second_color: rgba(255, 0, 0, 0.5);
-
-html, body {
-  background-color: $background;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+.fullgrey {
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
 }
 
-#text {
-  font-family: $primary_font;
-  font-size: 6em;
-  line-height: 1em;
-  text-align: left;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  &:hover {
-    cursor: default;
-  }
-
-  .wrapper {
-    display: inline-block;
-    top: -900px;
+.pplcontainer {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
     position: relative;
-    height: 150px; /* default */
-    width: 90px; /* default */
-    transition: ease 0.3s all;
-
-    span {
-      position: absolute;
-      top:0;
-      right:0;
-
-      transition: ease 0.3s all;
-
-      &.letter-2 {
-        color: $first_color;
-      }
-
-      &.letter-1 {
-        color: white;
-        z-index: 1;
-
-        &:hover {
-           top: -3px;
-           right: -3px;
-
-           ~ .letter-2 {
-             top: 3px;
-             right: 3px;
-           }
-        }
-      }
-
-      &.space {
-        padding: 0;
-        min-width: 30px;
-        display: inline-block;
-      }
-    }
-  }
+}
+.pplcontainer .poptext {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    position: relative !important;
+}
+.poptext {
+    font-family: NeueEinBold;
+    width: 100%;
+    font-size: 1.5em;
+    padding-top: 60px;
+    padding-bottom: 24px;
+    margin: 0 auto;
 }
 
-/* text animation effect end */
+.acc {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 14px;
+}
+
+.fullgrey ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.acc_ctrl {
+    background: #ffffff;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 2em;
+    padding-right: 5em;
+    color: #000000;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+.acc_ctrl h2 {
+    font-family: NeueEinBold;
+    font-size: 1.2em;
+}
+.fullgrey button, select {
+    text-transform: none;
+}
+.fullgrey button, input {
+    overflow: visible;
+}
+.fullgrey button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.acc li {
+    list-style-type: none;
+    padding: 0;
+    border: solid 1px #dddddd;
+    margin-bottom: 10px;
+}
+.fullgrey li {
+    list-style: none;
+}
+.fullgrey li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#country {
+    font-family: NeueEin;
+}
+.acc_panel {
+    background: #f9f9f9;
+    display: none;
+    overflow: hidden;
+}
+.acc_panel ul {
+    font-family: NeueEinBold;
+    font-size: 1.2em;
+    padding: 2% 10%;
+    width: 80%;
+}
+ul ul, ol ul {
+    list-style-type: circle;
+}
+.acc_panel li {
+    font-family: NeueEin;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    list-style: circle !important;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    border: none;
+}
+.fullgrey h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.fullgrey h5 {
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.acc_ctrl.active:after {
+    background-color: #ffffff;
+}
+.acc_ctrl:after {
+    background: #e64543;
+    content: "";
+    height: 2px;
+    margin-right: 37px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 14px;
+}
+.acc_ctrl.active:before {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.acc_ctrl:before {
+    background: #e64543;
+    content: "";
+    height: 2px;
+    margin-right: 37px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 14px;
+}
+/* --------------------------
+:: Careers Area End
+-------------------------- */
