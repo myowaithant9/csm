@@ -1378,6 +1378,26 @@ p {
 /* --------------------------
 :: Careers Area Start
 -------------------------- */
+.card-header {
+    padding: 1.25rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(241, 233, 236);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card{
+  margin-bottom: 10px;
+}
+
+.btn.careerapply-btn {
+    background: #fb397d;
+    height: 48px;
+    min-width: 150px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 22px 22px 22px 22px;
+    margin-top: 20px;
+}
+
 .fullgrey {
     background-color: #f2f2f2;
     padding-bottom: 30px;
@@ -1420,7 +1440,27 @@ p {
     -webkit-padding-start: 40px;
 }
 
+.acc_ctrl:link{
+  text-decoration: none;
+}
+
+.acc_ctrl:visited {
+    text-decoration: none;
+}
+.acc_ctrl:hover{
+  text-decoration: none;
+}
+
+.acc_ctrl:active {
+    text-decoration: none;
+}
+
+.acc_ctrl:focus {
+    text-decoration: none;
+}
+
 .acc_ctrl {
+    text-decoration: none;
     background: #ffffff;
     cursor: pointer;
     display: block;
@@ -1432,9 +1472,60 @@ p {
     text-align: left;
     width: 100%;
     border: none;
+    //border-radius: 25px 0px 25px 0;
+}
+.acc_ctrl.active {
+    background: #e64543;
+    color: #ffffff;
+}
+
+.acc_ctrl.active:before {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.acc_ctrl:before {
+    background: #e64543;
+    content: "";
+    height: 2px;
+    margin-right: 37px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 14px;
+}
+.acc_ctrl.active:after {
+    background-color: #ffffff;
+}
+
+.acc_ctrl:after {
+    background: #e64543;
+    content: "";
+    height: 2px;
+    margin-right: 37px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 14px;
+}
+#careerscollapse.slick-active{
+  background: #e64543;
+  color: #ffffff;
 }
 .acc_ctrl h2 {
-    font-family: NeueEinBold;
+    //font-family: NeueEinBold;
     font-size: 1.2em;
 }
 .fullgrey button, select {
@@ -1471,7 +1562,8 @@ p {
     display: none;
     overflow: hidden;
 }
-.acc_panel ul {
+
+.acc_panel ul, .card-body ul {
     font-family: NeueEinBold;
     font-size: 1.2em;
     padding: 2% 10%;
@@ -1480,7 +1572,7 @@ p {
 ul ul, ol ul {
     list-style-type: circle;
 }
-.acc_panel li {
+.acc_panel li, .card-body li {
     font-family: NeueEin;
     font-weight: 400;
     font-size: 0.8em;
@@ -1491,6 +1583,8 @@ ul ul, ol ul {
     border: none;
 }
 .fullgrey h3 {
+    color: #ca301dfc;
+    margin-bottom: 30px;
     display: block;
     font-size: 1.17em;
     -webkit-margin-before: 1em;
@@ -1508,46 +1602,231 @@ ul ul, ol ul {
     -webkit-margin-end: 0px;
     font-weight: bold;
 }
-.acc_ctrl.active:after {
-    background-color: #ffffff;
-}
-.acc_ctrl:after {
-    background: #e64543;
-    content: "";
-    height: 2px;
-    margin-right: 37px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 14px;
-}
-.acc_ctrl.active:before {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-.acc_ctrl:before {
-    background: #e64543;
-    content: "";
-    height: 2px;
-    margin-right: 37px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    width: 14px;
-}
 /* --------------------------
 :: Careers Area End
+-------------------------- */
+
+/* --------------------------
+:: Services Area Start
+-------------------------- */
+.breakpoint {
+    min-height: 500px;
+    background-color: #f2f2f2;
+    height: auto !important;
+}
+
+.contentbreaker {
+    width: 100%;
+}
+.subisotopecontainer {
+    width: 100%;
+    background-color: #fffffe;
+    height: auto;
+    padding-bottom: 65px;
+    overflow: hidden;
+}
+.subisotopecontainer:after, .isotope:after {
+    content: "";
+    clear: both;
+}
+.masonryde {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+#purplegrad {
+    background: radial-gradient(60% 60% at center, #6317b2, #4d00b2);
+    background: -webkit-radial-gradient(center, 60% 60%, #6317b2, #4d00b2);
+}
+#blue {
+    background: radial-gradient(60% 60% at center, #409fde, #2c8ecf);
+    background: -webkit-radial-gradient(center, 60% 60%, #409fde, #2c8ecf);
+}
+#lightgrey {
+    background: radial-gradient(60% 60% at center, #e1e1e1, #d0d0d0);
+    background: -webkit-radial-gradient(center, 60% 60%, #e1e1e1, #d0d0d0);
+}
+#limegreen {
+    background: radial-gradient(60% 60% at center, #8ad071, #9dd988);
+    background: -webkit-radial-gradient(center, 60% 60%, #8ad071, #9dd988);
+}
+#lightred {
+    background: radial-gradient(60% 30% at center, #ee8f8e, #e75a57);
+    background: -webkit-radial-gradient(center, 60% 30%, #ee8f8e, #e75a57);
+}
+#lightpeach {
+    background: radial-gradient(60% 60% at center, #fad386, #f9c154);
+    background: -webkit-radial-gradient(center, 60% 60%, #fad386, #f9c154);
+}
+#grey {
+    background: radial-gradient(60% 60% at center, #3e3e3e, #262626);
+    background: -webkit-radial-gradient(center, 60% 60%, #3e3e3e, #262626);
+}
+#lightblue {
+    background: radial-gradient(60% 60% at center, #409fde, #2c8ecf);
+    background: -webkit-radial-gradient(center, 60% 60%, #ffffff, #2c8ecf);
+}
+.servicesetui {
+    display: block;
+    margin: auto;
+    margin-top: 114px;
+    width: 25%;
+    height: auto;
+}
+.servicesetux {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+}
+.servicesetandroidios {
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+    width: 120px;
+    height: auto;
+}
+.servicesetwebsite {
+    display: block;
+    right: 0px;
+    float: right;
+    margin-top: 34%;
+    width: 80%;
+    height: auto;
+}
+//@media screen and (min-width: 1200px)
+//.servicesetwebsite2 {
+//    display: none;
+//}
+.servicesetdigitalmarketing {
+    display: block;
+    margin: auto;
+    margin-top: 50%;
+    width: 80%;
+    height: auto;
+}
+.servicesetbackup {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+}
+/*
+.digitalexperiencebg {
+    background: url(/assets/services-img/services8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+.servicesname {
+    text-align: left;
+    color: #fff;
+    font-family: NeueEinBold;
+    top: 40px;
+    width: 140px;
+    left: 40px;
+    font-size: 1.5em;
+    position: absolute;
+}
+.serviceone{
+  height:400px;
+  margin-bottom:10px;
+  width:100%;
+  //max-width:calc(33.33% - 10px)
+}
+.servicetwo{
+  //height:400px;
+  margin-bottom:10px;
+  //width:100%;
+  //max-width:calc(66.66% - 10px)
+}
+.servicethree{
+  margin-left:10px;
+  width:100%;
+  max-width:calc(33.33% - 10px)
+}
+.servicefour{
+  height:810px;
+  margin-bottom:10px;
+  width:100%;
+  max-width:calc(33.33% - 10px)
+}
+.serviceone,.servicetwo,.servicefour{
+  overflow:hidden;
+  z-index:1;
+  cursor:pointer
+}
+.serviceone:after,.servicetwo:after,.servicefour:after{
+  content:"";
+  width:100%;
+  height:100%;
+  background:#000;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+  transition:opacity 2s cubic-bezier(0.19, 1, 0.22, 1)
+}
+.serviceone .hover-text,.servicetwo .hover-text,.servicefour .hover-text{
+  font-family:"NeueEinBold";
+  font-size:2em;
+  color:#fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  z-index:1;
+  text-align:center;
+  width:100%;
+  opacity:0;
+  margin-top:20px;
+  transition:all 0.5s
+}
+.serviceone .hover-text.align-left,.servicetwo .hover-text.align-left,.servicefour .hover-text.align-left{
+  text-align:left;
+  padding:5%;
+  box-sizing:border-box;
+  transform:none;
+  top:0;
+  left:0
+}
+.serviceone:hover:after,.servicetwo:hover:after,.servicefour:hover:after{
+  opacity:0.9
+}
+.serviceone:hover .hover-text,.servicetwo:hover .hover-text,.servicefour:hover .hover-text{
+  opacity:1;
+  margin-top:0
+}
+
+.servicesetui {
+    display: block;
+    margin: auto;
+    margin-top: 114px;
+    width: 25%;
+    height: auto;
+}
+.projectholder img {
+    max-width: 100%;
+    height: auto;
+}
+.projectholder img {
+    border-style: none;
+}
+.servicesname {
+    text-align: left;
+    color: #fff;
+    font-family: NeueEinBold;
+    top: 40px;
+    width: 140px;
+    left: 40px;
+    font-size: 1.5em;
+    position: absolute;
+}
+
+
+/* --------------------------
+:: Services Area End
 -------------------------- */

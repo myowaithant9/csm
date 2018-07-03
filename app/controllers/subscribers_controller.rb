@@ -7,9 +7,10 @@ class SubscribersController < ApplicationController
     @subscriber = Subscriber.new(subscriber_params)
     if @subscriber.save
       cookies[:saved_lead] = true
-      redirect_to root_path, notice: "Saved Successfully!"
+      flash[:success] = "Woohoo!" #notice: "Saved Successfully!"
+      redirect_to root_path
     else
-      redirect_to root_path, notice: "Failed to save"
+      redirect_to root_path, flash[:error] = "Alerting you to the monkey on your car!" #notice: "Failed to save"
     end
   end
 

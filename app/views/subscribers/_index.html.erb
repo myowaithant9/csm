@@ -21,8 +21,20 @@
               </div>
           </div>
 
+          <div class="col-auto col-md-6">
+              <div class="form-group">
+                <% flash.each do |key, value| %>
+                    <div class="<%= flash_class(key) %>">
+                          <%= value %>
+                    </div>
+                <% end %>
+
+                
+              </div>
+          </div>
+
           <div class="col-auto col-md-3">
-                  <%= f.submit :Subscribe, class: "btn subscribe-btn"  %>
+              <%= f.submit :Subscribe, class: "btn subscribe-btn"  %>
           </div>
 
         </div>
