@@ -44017,3 +44017,1145 @@ Processing by HomeController#about as HTML
 Completed 200 OK in 192ms (Views: 186.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:12:09 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (25.1ms)
+  Rendered layouts/_navigation.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (12.8ms)
+Completed 200 OK in 174ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:12:35 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (19.9ms)
+  Rendered layouts/_navigation.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 155ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:12:59 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_navigation.html.erb (5.6ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 186ms (Views: 180.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:13:52 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 118ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2018-07-04 15:17:41 +0630
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#careers as HTML
+  Rendering home/careers.html.erb within layouts/application
+  Rendered home/careers.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (5.5ms)
+Completed 200 OK in 1748ms (Views: 1732.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:17:45 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 123ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:17:50 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 114ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 15:32:21 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (123.8ms)
+  Rendered home/index.html.erb within layouts/application (194.8ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (3.9ms)
+Completed 200 OK in 344ms (Views: 322.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:33:16 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 110ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:34:03 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 170ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:34:33 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 114ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:35:29 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 80ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:35:51 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 111ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:36:41 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (8.9ms)
+Completed 200 OK in 122ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:37:07 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 110ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:38:30 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 119ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:38:57 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 115ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:40:05 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (26.7ms)
+  Rendered layouts/_navigation.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 159ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:41:21 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (4.6ms)
+Completed 200 OK in 112ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:43:41 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 133ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:44:06 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_navigation.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 184ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:44:22 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 95ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:45:09 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 118ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:45:37 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 88ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:45:45 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 105ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:46:50 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:47:32 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 100ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:48:10 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:54:35 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (36.4ms)
+  Rendered layouts/_navigation.html.erb (6.9ms)
+  Rendered layouts/_footer.html.erb (5.4ms)
+Completed 200 OK in 255ms (Views: 245.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:55:47 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 110ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:56:59 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_navigation.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (5.1ms)
+Completed 200 OK in 166ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 15:58:41 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 9544ms (Views: 9540.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 15:58:57 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (4.1ms)
+  Rendered home/index.html.erb within layouts/application (43.6ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 176ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:00:20 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (34.9ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 150ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:00:24 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 98ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:00:57 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 119ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:01:34 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 320ms (Views: 315.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:01:56 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 116ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:01:59 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 120ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:02:05 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 101ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:02:33 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 120ms (Views: 115.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:07:41 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (16.6ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 155ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-07-04 16:07:41 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:07:51 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 93ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-07-04 16:07:52 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:08:18 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 107ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:08:23 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 101ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:10:11 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (9.1ms)
+  Rendered home/index.html.erb within layouts/application (61.3ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (3.8ms)
+Completed 200 OK in 205ms (Views: 201.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:10:17 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 92ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:10:19 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (33.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 148ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:11:12 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 100ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:11:28 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 83ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:11:30 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 112ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:11:38 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:14:09 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 125ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-07-04 16:14:09 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:14:33 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 111ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2018-07-04 16:14:33 +0630
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:15:19 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 143ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:16:34 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_navigation.html.erb (13.7ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 137ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:17:06 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 99ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:17:23 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 105ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:18:17 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 109ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:19:33 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (15.3ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 148ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:19:56 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (21.5ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 189ms (Views: 185.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:20:37 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 113ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:20:55 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 109ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:28:23 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (7.1ms)
+  Rendered home/index.html.erb within layouts/application (56.3ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 211ms (Views: 199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:28:26 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (31.4ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 153ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:29:05 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 133ms (Views: 129.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:29:17 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 94ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:29:22 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_navigation.html.erb (6.3ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 109ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-07-04 16:30:06 +0630
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 102ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:30:36 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (6.6ms)
+  Rendered home/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 146ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:32:47 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (43.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (8.1ms)
+Completed 200 OK in 177ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:33:02 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 122ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:33:17 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.6ms)
+  Rendered home/index.html.erb within layouts/application (36.3ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 153ms (Views: 150.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:33:26 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (33.2ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 153ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:35:08 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (30.7ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 153ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:36:16 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (31.4ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 194ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:36:31 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (4.4ms)
+  Rendered home/index.html.erb within layouts/application (37.7ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 273ms (Views: 270.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:37:05 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (27.4ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 152ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:37:18 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 134ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:37:35 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 91ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:39:55 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (20.0ms)
+  Rendered layouts/_navigation.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 225ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:44:09 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (33.6ms)
+  Rendered layouts/_navigation.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 218ms (Views: 208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:44:11 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (3.2ms)
+Completed 200 OK in 164ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:44:15 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (7.3ms)
+Completed 200 OK in 130ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:44:54 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (21.7ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 125ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:45:05 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 142ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:45:08 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (11.0ms)
+  Rendered home/index.html.erb within layouts/application (50.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 171ms (Views: 165.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:45:22 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (4.8ms)
+  Rendered home/index.html.erb within layouts/application (30.8ms)
+  Rendered layouts/_navigation.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 145ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:45:41 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (27.5ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 146ms (Views: 141.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:46:03 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 81ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:46:09 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 73ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:46:11 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (26.2ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 126ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:46:34 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.7ms)
+  Rendered home/index.html.erb within layouts/application (30.8ms)
+  Rendered layouts/_navigation.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 227ms (Views: 222.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:46:39 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (26.6ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 119ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:46:56 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (33.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 140ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:47:30 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (33.9ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 127ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:47:49 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 111ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:48:03 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2018-07-04 16:48:05 +0630
+Processing by HomeController#careers as HTML
+  Rendering home/careers.html.erb within layouts/application
+  Rendered home/careers.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 96ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:48:11 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 119ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:49:17 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 120ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:49:20 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (15.7ms)
+  Rendered home/index.html.erb within layouts/application (48.5ms)
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 173ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:49:23 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 101ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-07-04 16:49:26 +0630
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.8ms)
+Completed 200 OK in 104ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-07-04 16:49:35 +0630
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 102ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2018-07-04 16:51:55 +0630
+Processing by HomeController#services as HTML
+  Rendering home/services.html.erb within layouts/application
+  Rendered home/services.html.erb within layouts/application (19.9ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 162ms (Views: 157.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-07-04 16:51:58 +0630
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered subscribers/_index.html.erb (4.8ms)
+  Rendered home/index.html.erb within layouts/application (48.7ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (1.9ms)
+Completed 200 OK in 188ms (Views: 184.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2018-07-04 16:52:02 +0630
+Processing by HomeController#team as HTML
+  Rendering home/team.html.erb within layouts/application
+  Rendered home/team.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 125ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/careers" for 127.0.0.1 at 2018-07-04 16:52:16 +0630
+Processing by HomeController#careers as HTML
+  Rendering home/careers.html.erb within layouts/application
+  Rendered home/careers.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 123ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-07-04 16:52:19 +0630
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 86ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
