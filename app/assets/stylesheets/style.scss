@@ -213,7 +213,7 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #ca301dfc;
     color: #fff;
     text-align: center;
     height: 50px;
@@ -1126,6 +1126,18 @@ p {
 /* --------------------------
 :: 12.0 Team Area CSS Start
 -------------------------- */
+.bg-grey {
+  background-color: #f7f7f7;
+}
+.team > h2 {
+    color: #ca301dfc;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.team > h3 {
+    color: #ca301dfc;
+    margin-bottom: 30px;
+}
 
 .member-image {
     margin-bottom: 30px;
@@ -1371,7 +1383,7 @@ p {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(131,127,243,1);
+    background: #ca301dfc;
 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -1386,23 +1398,28 @@ p {
     margin-bottom: 0;
     background-color: rgb(241, 233, 236);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 25px;
+    background-color: #ffffff;
 }
 .card{
   margin-bottom: 10px;
+  border-radius: 25px;
+  background-color: #ffffff;
 }
 
 .btn.careerapply-btn {
-    background: #fb397d;
+    background: #ca301dfc;
     height: 48px;
     min-width: 150px;
     color: #ffffff;
     font-weight: 500;
     border-radius: 22px 22px 22px 22px;
     margin-top: 20px;
+    padding: 0.5rem 0.75rem;
 }
 
 .fullgrey {
-    background-color: #f2f2f2;
+    background-color: #ffff;
     padding-bottom: 30px;
 }
 
@@ -1452,6 +1469,7 @@ p {
 }
 .acc_ctrl:hover{
   text-decoration: none;
+  background: #ca301dfc;;
 }
 
 .acc_ctrl:active {
@@ -1464,7 +1482,7 @@ p {
 
 .acc_ctrl {
     text-decoration: none;
-    background: #ffffff;
+    background: #ca301dfc;
     cursor: pointer;
     display: block;
     outline: none;
@@ -1475,7 +1493,8 @@ p {
     text-align: left;
     width: 100%;
     border: none;
-    //border-radius: 25px 0px 25px 0;
+    border-radius: 25px;
+    opacity: 1;
 }
 .acc_ctrl.active {
     background: #e64543;
