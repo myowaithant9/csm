@@ -1383,7 +1383,7 @@ p {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #ca301dfc;
+
 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -1469,7 +1469,8 @@ p {
 }
 .acc_ctrl:hover{
   text-decoration: none;
-  background: #ca301dfc;;
+  background: #ca301dfc;
+  color: #ffffff;
 }
 
 .acc_ctrl:active {
@@ -1480,9 +1481,10 @@ p {
     text-decoration: none;
 }
 
+
 .acc_ctrl {
     text-decoration: none;
-    background: #ca301dfc;
+    background: rgba(0, 0, 0, 0.05);
     cursor: pointer;
     display: block;
     outline: none;
@@ -1494,7 +1496,14 @@ p {
     width: 100%;
     border: none;
     border-radius: 25px;
-    opacity: 1;
+
+    &:hover > h4 {
+        color: white;
+    }
+}
+
+.acc_ctrl h4 {
+  color: #ca301dfc;
 }
 .acc_ctrl.active {
     background: #e64543;
@@ -1550,6 +1559,7 @@ p {
     //font-family: NeueEinBold;
     font-size: 1.2em;
 }
+
 .fullgrey button, select {
     text-transform: none;
 }
