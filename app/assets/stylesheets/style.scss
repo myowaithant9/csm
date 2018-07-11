@@ -1,31 +1,3 @@
-/* --------------------------
-:: Template Name: devdap App - Bit.app Landing Page
-:: Template Author: devdap
-:: Template Author URI: https://devdap.com/
-:: Description: devdap is a One Page based Ruby On Rails Bit Coin app Landing Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
-:: Tags: devdap, Bit Coin app Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc,Ruby On Rails.
-:: Version: v1.0
-:: Created: 01/01/2018
--------------------------- */
-
-/* --- [Master Stylesheet] ----
-:: 1.0 Base CSS Start
-:: 2.0 Header Area CSS
-:: 3.0 Wellcome Area CSS
-:: 4.0 Special Area CSS
-:: 5.0 Features Area CSS
-:: 6.0 Video Area CSS
-:: 7.0 Cool Facts Area CSS
-:: 8.0 Screenshots Area CSS
-:: 9.0 Pricing Plan Area CSS
-:: 10.0 Testimonials Area CSS
-:: 11.0 CTA Area CSS Start
-:: 12.0 Team Area CSS Start
-:: 13.0 Contact Area CSS Start
-:: 14.0 Footer Area CSS Start
-:: 15.0 Verticle Scrollbar
--------------------------- */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans:400,500');
 @import "bootstrap";
 @import "animate";
@@ -459,6 +431,21 @@ p {
     margin-top: 70px;
 }
 
+.servicesbg {
+    background-image: image-url("bg-img/our_services.jpg");
+}
+
+.teambg {
+    background-image: image-url("bg-img/our_team.jpg");
+}
+
+.aboutbg {
+    background-image: image-url("bg-img/about.jpg");
+}
+.careerbg {
+    background-image: image-url("bg-img/career.jpeg");
+}
+
 .wellcome_area:after {
     position: absolute;
     width: 100%;
@@ -740,64 +727,6 @@ p {
 .single-feature > p {
     margin-top: 15px;
 }
-
-/* --------------------------
-:: 6.0 Video Area CSS
--------------------------- */
-
-.video-area {
-    position: relative;
-    z-index: 1;
-    background-position: center center;
-    background-size: cover;
-    border: 20px solid #fff;
-    border-radius: 20px;
-    height: 650px;
-    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-}
-
-.video-area:after {
-    position: absolute;
-    content: "";
-    top: -20px;
-    left: -20px;
-    width: calc(100% + 40px);
-    height: calc(100% + 40px);
-    border: 1px solid #f1f4f8;
-    z-index: 2;
-    border-radius: 20px;
-}
-
-
-.video-area .video-play-btn a {
-    width: 80px;
-    height: 80px;
-    background-color: #fb397d;
-    color: #fff;
-    text-align: center;
-    display: block;
-    font-size: 36px;
-    line-height: 80px;
-    padding-left: 5px;
-    border-radius: 50%;
-    top: 50%;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    z-index: 3;
-}
-
-.video-area .video-play-btn a:hover {
-    background-color: #a865e1;
-    color: #fff;
-}
-
-.video-background{
-    background-image: image-url("bg-img/video.jpg");
-}
 /* --------------------------
 :: 7.0 Cool Facts Area CSS
 -------------------------- */
@@ -889,84 +818,6 @@ p {
     height: 100%;
     width: 100%;
     text-align: center;
-}
-
-/* --------------------------
-:: 9.0 Pricing Plan Area CSS
--------------------------- */
-
-.pricing-plane-area {
-    background: #f5f9fc;
-}
-
-.single-price-plan {
-	margin-left: 15px;
-    background: #ffffff;
-    border: 1px solid #ebebeb;
-    border-radius: 30px 30px 30px 0;
-    margin-bottom: 30px;
-}
-
-.single-price-plan .package-plan {
-    padding: 40px 0;
-    border-radius: 30px 30px 0 0;
-}
-
-.single-price-plan .package-plan > h5 {
-    color: #ca301dfc;
-    font-size: 18px;
-}
-
-
-.single-price-plan .package-plan .ca-price h4 {
-    color: #fb397d;
-    font-size: 48px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-.single-price-plan .package-plan .ca-price span {
-    font-size: 18px;
-    color: #fb397d;
-}
-
-.single-price-plan .plan-button > a {
-    background: #726a84;
-    padding: 10px 0;
-    border-bottom-right-radius: 30px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.single-price-plan .package-description > p {
-    margin-bottom: 0;
-    line-height: 1;
-    padding: 15px 0;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.single-price-plan .package-description > p:first-child {
-    border-top: 1px solid #ebebeb;
-}
-
-.single-price-plan.active .package-plan,
-.single-price-plan.active .plan-button > a,
-.single-price-plan:hover .plan-button > a {
-    background-color: #7593FB;
-}
-
-.single-price-plan.active .package-plan .ca-price > h4,
-.single-price-plan.active .package-plan .ca-price > span,
-.single-price-plan.active .package-plan > h5,
-.single-price-plan.active .plan-button > a {
-    color: #fff;
 }
 
 /* --------------------------
@@ -1079,48 +930,6 @@ p {
     left: auto;
     right: 0;
     top: 0;
-}
-
-/* --------------------------
-:: 11.0 CTA Area CSS Start
--------------------------- */
-
-.our-monthly-membership {
-    background: -webkit-linear-gradient(50deg, #00c4cc, #7d2ae8);
-}
-
-.membership-description > h2 {
-    color: #ffffff;
-    font-size: 36px;
-}
-
-.membership-description > p {
-    color: #ffffff;
-    margin-bottom: 0;
-}
-
-.get-started-button > a {
-    background: #ffffff;
-    height: 45px;
-    min-width: 155px;
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    color: #fb397d;
-    font-weight: 500;
-    border-radius: 23px 0px 23px 0;
-}
-
-.get-started-button > a:hover {
-    background: #ca301dfc;
-    color: #fff;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.get-started-button {
-    text-align: right;
 }
 
 /* --------------------------
@@ -1266,7 +1075,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background: #ca301dfc;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1728,10 +1537,6 @@ ul ul, ol ul {
     width: 80%;
     height: auto;
 }
-//@media screen and (min-width: 1200px)
-//.servicesetwebsite2 {
-//    display: none;
-//}
 .servicesetdigitalmarketing {
     display: block;
     margin: auto;
@@ -1746,13 +1551,6 @@ ul ul, ol ul {
     margin: auto;
     margin-top: 140px;
 }
-/*
-.digitalexperiencebg {
-    background: url(/assets/services-img/services8.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}*/
 
 .servicesname {
     text-align: left;
@@ -1768,13 +1566,9 @@ ul ul, ol ul {
   height:400px;
   margin-bottom:10px;
   width:100%;
-  //max-width:calc(33.33% - 10px)
 }
 .servicetwo{
-  //height:400px;
   margin-bottom:10px;
-  //width:100%;
-  //max-width:calc(66.66% - 10px)
 }
 .servicethree{
   margin-left:10px;
